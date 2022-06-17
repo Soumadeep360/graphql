@@ -5,8 +5,8 @@ import {createNewInfo,updateInfo,deleteInfo} from './jqlFunctions/instruction';
 
 function App() {
 
-  const hardData={phoneNumber:"8888888888",name:"Neil"};
-  const hardData1={phoneNumber:"8888888880",name:"soumadeep"};
+  const hardData={phoneNumber:"8888888888",name:"welcome"};
+  const hardData1={phoneNumber:"8888888880",name:"welcome"};
   const hardData2={name:"Neil"};
   return (
     <div className="App">

@@ -37,8 +37,7 @@ export const onDeleteTodo = /* GraphQL */ `
 export const onCreateInstruction = /* GraphQL */ `
   subscription OnCreateInstruction {
     onCreateInstruction {
-      id
-      phoneNumber
+      email
       name
       createdAt
       updatedAt
@@ -48,8 +47,7 @@ export const onCreateInstruction = /* GraphQL */ `
 export const onUpdateInstruction = /* GraphQL */ `
   subscription OnUpdateInstruction {
     onUpdateInstruction {
-      id
-      phoneNumber
+      email
       name
       createdAt
       updatedAt
@@ -59,8 +57,7 @@ export const onUpdateInstruction = /* GraphQL */ `
 export const onDeleteInstruction = /* GraphQL */ `
   subscription OnDeleteInstruction {
     onDeleteInstruction {
-      id
-      phoneNumber
+      email
       name
       createdAt
       updatedAt

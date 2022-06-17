@@ -41,8 +41,7 @@ export const listTodos = /* GraphQL */ `
 export const getInstruction = /* GraphQL */ `
   query GetInstruction($name: String!) {
     getInstruction(name: $name) {
-      id
-      phoneNumber
+      email
       name
       createdAt
       updatedAt
@@ -65,8 +64,7 @@ export const listInstructions = /* GraphQL */ `
       sortDirection: $sortDirection
     ) {
       items {
-        id
-        phoneNumber
+        email
         name
         createdAt
         updatedAt

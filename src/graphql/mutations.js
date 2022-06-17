@@ -49,8 +49,7 @@ export const createInstruction = /* GraphQL */ `
     $condition: ModelInstructionConditionInput
   ) {
     createInstruction(input: $input, condition: $condition) {
-      id
-      phoneNumber
+      email
       name
       createdAt
       updatedAt
@@ -63,8 +62,7 @@ export const updateInstruction = /* GraphQL */ `
     $condition: ModelInstructionConditionInput
   ) {
     updateInstruction(input: $input, condition: $condition) {
-      id
-      phoneNumber
+      email
       name
       createdAt
       updatedAt
@@ -77,8 +75,7 @@ export const deleteInstruction = /* GraphQL */ `
     $condition: ModelInstructionConditionInput
   ) {
     deleteInstruction(input: $input, condition: $condition) {
-      id
-      phoneNumber
+      email
       name
       createdAt
       updatedAt

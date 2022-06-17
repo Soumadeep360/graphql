@@ -25,12 +25,12 @@ export const createNewInfo  = async (infoData) => {
         console.log("error info:",error);
     }
 }
-
-export const deleteInfo=async(infoData) => {
+// const hardData2={name:"welcome"};
+export const deleteInfo=async() => {
     try{
-        console.log("xyz:",infoData);
-        const  delInfo =await API.graphql({query:Mutations.deleteInstruction,variable:{input:infoData.name}})
-        console.log(delInfo);
+        // console.log("xyz:",infoData);
+            const  delInfo =await API.graphql({query:Mutations.deleteInstruction,variable:{input:{name:"welcome"}}})
+        // console.log(delInfo);
         console.log("the deleted info is:",delInfo.data.deleteInstruction); 
         // console.log("xyz:",infoData);
     }
